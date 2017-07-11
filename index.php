@@ -1,6 +1,8 @@
 <?php  
 
 
+    $u13 = 'id_20';
+    
     $url = 'https://www.afcvnrw.de/cms/verband/spielbetrieb/liga-tabellenaspiele.html';
 
         //$userAgent = 'Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US; rv:1.9.1.2) Gecko/20090729 Firefox/3.5.2 GTB5';
@@ -42,7 +44,7 @@
         // $liga = $doc->getElementByID('id_19')->nodeValue;
         // $mylayout = new DOMDocument;
         
-        $liga = $doc->getElementByID('id_19')->childNodes;
+        $liga = $doc->getElementByID($u13)->childNodes;
         
         // Works
         // $innerHTML = '';
